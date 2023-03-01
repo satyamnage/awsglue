@@ -23,6 +23,8 @@ s3output = glueContext.getSink(
   enableUpdateCatalog=True,
   transformation_ctx="s3output",
 )
+
+# test demo
 s3output.setCatalogInfo(
   catalogDatabase="demo", catalogTableName="populations"
 )

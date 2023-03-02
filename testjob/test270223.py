@@ -13,6 +13,7 @@ args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 # new demo
 # 230228
 #tuesday
+#satyam
 
 sc = SparkContext()
 glueContext = GlueContext(sc)
